@@ -1,4 +1,4 @@
-# BLBackgroundRealm [![Version](https://img.shields.io/badge/Version-1.0-black.svg?style=flat)](#installation) [![License](https://img.shields.io/cocoapods/l/BLBackgroundRealm.svg?style=flat)](#license)
+# BLBackgroundRealm [![Version](https://img.shields.io/badge/Version-1.0.1-black.svg?style=flat)](#installation) [![License](https://img.shields.io/cocoapods/l/BLBackgroundRealm.svg?style=flat)](#license)
 
 [![Platforms](https://img.shields.io/badge/Platforms-iOS|tvOS|macOS|watchOS-brightgreen.svg?style=flat)](#installation)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/BLBackgroundRealm.svg?style=flat&label=CocoaPods)](https://cocoapods.org/pods/BLBackgroundRealm)
@@ -128,6 +128,13 @@ git submodule add -b submodule --name BLBackgroundRealm https://github.com/BellA
 ```
 
 Then drag the `BLBackgroundRealm` folder into your Xcode project.
+
+## Forks
+
+When forking this repo, make sure to download the Realm framework and add it manually to the project.
+
+- [Realm - Objective-C - v3.0.0](https://static.realm.io/downloads/objc/realm-objc-3.0.0.zip)
+- [Realm - Objective-C - latest](https://realm.io/docs/objc/latest/)
 
 ## Author
 
