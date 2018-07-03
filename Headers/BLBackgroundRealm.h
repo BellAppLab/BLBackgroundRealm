@@ -1,11 +1,10 @@
-#import <Foundation/Foundation.h>
 #import <Realm/Realm.h>
 
 //! Project version number for BLBackgroundRealm_macOS.
-FOUNDATION_EXPORT double BLBackgroundRealm_macOSVersionNumber;
+FOUNDATION_EXPORT double BLBackgroundRealmVersionNumber;
 
 //! Project version string for BLBackgroundRealm_macOS.
-FOUNDATION_EXPORT const unsigned char BLBackgroundRealm_macOSVersionString[];
+FOUNDATION_EXPORT const unsigned char BLBackgroundRealmVersionString[];
 
 #import "BLBackgroundRealmError.h"
 #import "RLMRealmConfiguration+Background.h"

@@ -1,9 +1,6 @@
 #import <XCTest/XCTest.h>
 #import <Realm/Realm.h>
-#import "BLBackgroundRealmError.h"
-#import "RLMRealmConfiguration+Background.h"
-#import "RLMRealm+Background.h"
-#import "BLBackgroundRealmClass.h"
+#import <BLBackgroundRealm/BLBackgroundRealm.h>
 #import "TestObject.h"
 
 

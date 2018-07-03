@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "BLBackgroundRealm"
-  s.version             = "1.0.1"
+  s.version             = "1.0.2"
   s.summary             = "A collection of handy classes and extensions that make it easier to work with `Realm` in the background."
   s.screenshot          = "https://github.com/BellAppLab/BLBackgroundRealm/raw/master/Images/background_realm.png"
 

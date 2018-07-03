@@ -13,46 +13,27 @@
 		6557310220E3604600F17D94 /* Realm+Background_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557310120E3604600F17D94 /* Realm+Background_Tests.m */; };
 		6557310320E3604600F17D94 /* Realm+Background_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557310120E3604600F17D94 /* Realm+Background_Tests.m */; };
 		6557310420E3604600F17D94 /* Realm+Background_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557310120E3604600F17D94 /* Realm+Background_Tests.m */; };
-		6557310620E3652600F17D94 /* BLBackgroundRealmClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFF720E285A70043BDCE /* BLBackgroundRealmClass.m */; };
-		6557310820E3652D00F17D94 /* RLMRealm+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFE320E27C8D0043BDCE /* RLMRealm+Background.m */; };
-		6557310920E3653200F17D94 /* RLMRealmConfiguration+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFED20E27D970043BDCE /* RLMRealmConfiguration+Background.m */; };
-		6557310A20E3653500F17D94 /* BLBackgroundRealmError.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFD920E275CB0043BDCE /* BLBackgroundRealmError.m */; };
-		6557310B20E3653800F17D94 /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
-		6557310C20E3655D00F17D94 /* BLBackgroundRealmClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFF720E285A70043BDCE /* BLBackgroundRealmClass.m */; };
-		6557310D20E3655D00F17D94 /* RLMRealm+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFE320E27C8D0043BDCE /* RLMRealm+Background.m */; };
-		6557310E20E3655D00F17D94 /* RLMRealmConfiguration+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFED20E27D970043BDCE /* RLMRealmConfiguration+Background.m */; };
-		6557310F20E3655D00F17D94 /* BLBackgroundRealmError.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFD920E275CB0043BDCE /* BLBackgroundRealmError.m */; };
-		6557311020E3655D00F17D94 /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
-		6557311120E3655D00F17D94 /* BLBackgroundRealmClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFF720E285A70043BDCE /* BLBackgroundRealmClass.m */; };
-		6557311220E3655D00F17D94 /* RLMRealm+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFE320E27C8D0043BDCE /* RLMRealm+Background.m */; };
-		6557311320E3655D00F17D94 /* RLMRealmConfiguration+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFED20E27D970043BDCE /* RLMRealmConfiguration+Background.m */; };
-		6557311420E3655D00F17D94 /* BLBackgroundRealmError.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFD920E275CB0043BDCE /* BLBackgroundRealmError.m */; };
-		6557311520E3655D00F17D94 /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
 		65B2CF1720E26CA10043BDCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CF1620E26CA10043BDCE /* AppDelegate.m */; };
 		65B2CF1A20E26CA20043BDCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CF1920E26CA20043BDCE /* ViewController.m */; };
 		65B2CF1D20E26CA20043BDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B2CF1B20E26CA20043BDCE /* Main.storyboard */; };
 		65B2CF1F20E26CA20043BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B2CF1E20E26CA20043BDCE /* Assets.xcassets */; };
 		65B2CF2220E26CA20043BDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B2CF2020E26CA20043BDCE /* LaunchScreen.storyboard */; };
 		65B2CF2520E26CA20043BDCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CF2420E26CA20043BDCE /* main.m */; };
-		65B2CF5220E26D5A0043BDCE /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CF5020E26D5A0043BDCE /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65B2CF5520E26D5A0043BDCE /* BLBackgroundRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF4E20E26D5A0043BDCE /* BLBackgroundRealm.framework */; };
 		65B2CF5620E26D5A0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF4E20E26D5A0043BDCE /* BLBackgroundRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65B2CF6320E26D850043BDCE /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CF6120E26D850043BDCE /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65B2CF6F20E26D980043BDCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CF6E20E26D980043BDCE /* AppDelegate.m */; };
 		65B2CF7220E26D980043BDCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CF7120E26D980043BDCE /* ViewController.m */; };
 		65B2CF7520E26D980043BDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B2CF7320E26D980043BDCE /* Main.storyboard */; };
 		65B2CF7720E26D990043BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B2CF7620E26D990043BDCE /* Assets.xcassets */; };
 		65B2CF7A20E26D990043BDCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CF7920E26D990043BDCE /* main.m */; };
-		65B2CF9520E26DAE0043BDCE /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CF9320E26DAE0043BDCE /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65B2CF9820E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework */; };
-		65B2CF9920E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65B2CF9820E26DAE0043BDCE /* BLBackgroundRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm.framework */; };
+		65B2CF9920E26DAE0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65B2CFA620E26DC10043BDCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFA520E26DC10043BDCE /* AppDelegate.m */; };
 		65B2CFA820E26DC10043BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B2CFA720E26DC10043BDCE /* Assets.xcassets */; };
 		65B2CFAB20E26DC10043BDCE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B2CFA920E26DC10043BDCE /* MainMenu.xib */; };
 		65B2CFAE20E26DC10043BDCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2CFAD20E26DC10043BDCE /* main.m */; };
-		65B2CFCA20E26DDB0043BDCE /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CFC820E26DDB0043BDCE /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65B2CFCD20E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework */; };
-		65B2CFCE20E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65B2CFCD20E26DDB0043BDCE /* BLBackgroundRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm.framework */; };
+		65B2CFCE20E26DDB0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65B2CFDA20E275CB0043BDCE /* BLBackgroundRealmError.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CFD820E275CB0043BDCE /* BLBackgroundRealmError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65B2CFDB20E275CB0043BDCE /* BLBackgroundRealmError.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CFD820E275CB0043BDCE /* BLBackgroundRealmError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65B2CFDC20E275CB0043BDCE /* BLBackgroundRealmError.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B2CFD820E275CB0043BDCE /* BLBackgroundRealmError.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,10 +78,6 @@
 		65B2D00C20E290F00043BDCE /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
 		65B2D00D20E290F00043BDCE /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
 		65B2D00E20E290F00043BDCE /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
-		65B2D01120E298490043BDCE /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2D00F20E297500043BDCE /* module.modulemap */; };
-		65B2D01620E298980043BDCE /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2D01520E298860043BDCE /* module.modulemap */; };
-		65B2D01820E298A50043BDCE /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2D01320E298800043BDCE /* module.modulemap */; };
-		65B2D01A20E298B10043BDCE /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2D01420E298830043BDCE /* module.modulemap */; };
 		65E6F6F120EB51AA00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D020EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		65E6F6F220EB51B100D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		65E6F6F420EB51B800D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -114,6 +91,18 @@
 		65E6F6FE20EB53EB00D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65E6F6FF20EB53F400D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; };
 		65E6F70020EB53F400D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65E6F70920EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E6F70A20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E6F70B20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E6F70C20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E6F70D20EB5A6700D62CDB /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70820EB5A5300D62CDB /* module.modulemap */; };
+		65E6F70F20EB5A7100D62CDB /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70820EB5A5300D62CDB /* module.modulemap */; };
+		65E6F71220EB5A8000D62CDB /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70820EB5A5300D62CDB /* module.modulemap */; };
+		65E6F71420EB5A8700D62CDB /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70820EB5A5300D62CDB /* module.modulemap */; };
+		65E6F71520EB5AF700D62CDB /* BLBackgroundRealm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; };
+		65E6F71E20EB5C6400D62CDB /* BLBackgroundRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF4E20E26D5A0043BDCE /* BLBackgroundRealm.framework */; };
+		65E6F71F20EB5C6D00D62CDB /* BLBackgroundRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm.framework */; };
+		65E6F72020EB5C7500D62CDB /* BLBackgroundRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm.framework */; };
 		65E888EC20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */; };
 		65E888ED20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */; };
 		65E888EE20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */; };
@@ -162,6 +151,27 @@
 			remoteGlobalIDString = 65B2CFC520E26DDB0043BDCE;
 			remoteInfo = BLBackgroundRealm_macOS;
 		};
+		65E6F71820EB5BE200D62CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B2CEEE20E26B600043BDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B2CF4D20E26D5A0043BDCE;
+			remoteInfo = BLBackgroundRealm_iOS;
+		};
+		65E6F71A20EB5BEB00D62CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B2CEEE20E26B600043BDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B2CF9020E26DAE0043BDCE;
+			remoteInfo = BLBackgroundRealm_tvOS;
+		};
+		65E6F71C20EB5BF000D62CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B2CEEE20E26B600043BDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B2CFC520E26DDB0043BDCE;
+			remoteInfo = BLBackgroundRealm_macOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -184,7 +194,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				65E6F6FE20EB53EB00D62CDB /* Realm.framework in Embed Frameworks */,
-				65B2CF9920E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework in Embed Frameworks */,
+				65B2CF9920E26DAE0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +206,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				65E6F70020EB53F400D62CDB /* Realm.framework in Embed Frameworks */,
-				65B2CFCE20E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework in Embed Frameworks */,
+				65B2CFCE20E26DDB0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +217,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				65B2D01120E298490043BDCE /* module.modulemap in CopyFiles */,
+				65E6F71520EB5AF700D62CDB /* BLBackgroundRealm.h in CopyFiles */,
+				65E6F71420EB5A8700D62CDB /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +228,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				65B2D01620E298980043BDCE /* module.modulemap in CopyFiles */,
+				65E6F71220EB5A8000D62CDB /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +238,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				65B2D01820E298A50043BDCE /* module.modulemap in CopyFiles */,
+				65E6F70F20EB5A7100D62CDB /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +248,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				65B2D01A20E298B10043BDCE /* module.modulemap in CopyFiles */,
+				65E6F70D20EB5A6700D62CDB /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +271,8 @@
 		65B2CF2D20E26CBA0043BDCE /* iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CF3120E26CBA0043BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B2CF4E20E26D5A0043BDCE /* BLBackgroundRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLBackgroundRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B2CF5020E26D5A0043BDCE /* BLBackgroundRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBackgroundRealm.h; sourceTree = "<group>"; };
 		65B2CF5120E26D5A0043BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65B2CF5F20E26D850043BDCE /* BLBackgroundRealm_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLBackgroundRealm_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B2CF6120E26D850043BDCE /* BLBackgroundRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBackgroundRealm.h; sourceTree = "<group>"; };
+		65B2CF5F20E26D850043BDCE /* BLBackgroundRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLBackgroundRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CF6220E26D850043BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B2CF6B20E26D970043BDCE /* tvOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CF6D20E26D980043BDCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -276,8 +285,7 @@
 		65B2CF7920E26D990043BDCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65B2CF8220E26DA20043BDCE /* tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CF8620E26DA20043BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLBackgroundRealm_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B2CF9320E26DAE0043BDCE /* BLBackgroundRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBackgroundRealm.h; sourceTree = "<group>"; };
+		65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLBackgroundRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CF9420E26DAE0043BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B2CFA220E26DC10043BDCE /* macOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CFA420E26DC10043BDCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -289,8 +297,7 @@
 		65B2CFAF20E26DC10043BDCE /* macOS_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_Example.entitlements; sourceTree = "<group>"; };
 		65B2CFB720E26DCE0043BDCE /* macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CFBB20E26DCE0043BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLBackgroundRealm_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B2CFC820E26DDB0043BDCE /* BLBackgroundRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBackgroundRealm.h; sourceTree = "<group>"; };
+		65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLBackgroundRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2CFC920E26DDB0043BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B2CFD320E26F420043BDCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		65B2CFD420E26F420043BDCE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -306,10 +313,6 @@
 		65B2D00020E287960043BDCE /* BLBackgroundRealmBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBackgroundRealmBlock.h; sourceTree = "<group>"; };
 		65B2D00520E290F00043BDCE /* BLBackgroundWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBackgroundWorker.h; sourceTree = "<group>"; };
 		65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLBackgroundWorker.m; sourceTree = "<group>"; };
-		65B2D00F20E297500043BDCE /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		65B2D01320E298800043BDCE /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		65B2D01420E298830043BDCE /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		65B2D01520E298860043BDCE /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		65E6F6BA20EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		65E6F6BC20EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		65E6F6BD20EB4F3D00D62CDB /* docs.webloc */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = docs.webloc; sourceTree = "<group>"; };
@@ -324,6 +327,8 @@
 		65E6F6D820EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		65E6F6DA20EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		65E6F6DB20EB518300D62CDB /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBackgroundRealm.h; sourceTree = "<group>"; };
+		65E6F70820EB5A5300D62CDB /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundRealm_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -341,6 +346,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E6F71E20EB5C6400D62CDB /* BLBackgroundRealm.framework in Frameworks */,
 				65E6F6F920EB529B00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E6F6FD20EB53EB00D62CDB /* Realm.framework in Frameworks */,
-				65B2CF9820E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework in Frameworks */,
+				65B2CF9820E26DAE0043BDCE /* BLBackgroundRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +380,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E6F71F20EB5C6D00D62CDB /* BLBackgroundRealm.framework in Frameworks */,
 				65E6F6F820EB529800D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E6F6FF20EB53F400D62CDB /* Realm.framework in Frameworks */,
-				65B2CFCD20E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework in Frameworks */,
+				65B2CFCD20E26DDB0043BDCE /* BLBackgroundRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +406,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E6F72020EB5C7500D62CDB /* BLBackgroundRealm.framework in Frameworks */,
 				65E6F6FA20EB529E00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +429,7 @@
 				65B2CFD520E26F420043BDCE /* BLBackgroundRealm.podspec */,
 				65B2CFD420E26F420043BDCE /* LICENSE */,
 				65B2CFD620E274F20043BDCE /* BLBackgroundRealm */,
+				65E6F70620EB5A5300D62CDB /* Headers */,
 				65E6F6CE20EB518300D62CDB /* realm-objc-3.7.4 */,
 				65E6F6B820EB4F3D00D62CDB /* realm-objc-3.0.0 */,
 				65B2CF1420E26CA10043BDCE /* iOS Example */,
@@ -435,6 +444,7 @@
 				65B2CFC720E26DDB0043BDCE /* BLBackgroundRealm_macOS */,
 				65B2CFD720E2750A0043BDCE /* Tests */,
 				65B2CEF720E26B600043BDCE /* Products */,
+				65E6F71620EB5BC400D62CDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -444,13 +454,13 @@
 				65B2CF1320E26CA10043BDCE /* iOS Example.app */,
 				65B2CF2D20E26CBA0043BDCE /* iOS Tests.xctest */,
 				65B2CF4E20E26D5A0043BDCE /* BLBackgroundRealm.framework */,
-				65B2CF5F20E26D850043BDCE /* BLBackgroundRealm_watchOS.framework */,
+				65B2CF5F20E26D850043BDCE /* BLBackgroundRealm.framework */,
 				65B2CF6B20E26D970043BDCE /* tvOS Example.app */,
 				65B2CF8220E26DA20043BDCE /* tvOS Tests.xctest */,
-				65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework */,
+				65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm.framework */,
 				65B2CFA220E26DC10043BDCE /* macOS Example.app */,
 				65B2CFB720E26DCE0043BDCE /* macOS Tests.xctest */,
-				65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework */,
+				65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -482,8 +492,6 @@
 		65B2CF4F20E26D5A0043BDCE /* BLBackgroundRealm_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				65B2CF5020E26D5A0043BDCE /* BLBackgroundRealm.h */,
-				65B2D00F20E297500043BDCE /* module.modulemap */,
 				65B2CF5120E26D5A0043BDCE /* Info.plist */,
 			);
 			path = BLBackgroundRealm_iOS;
@@ -492,8 +500,6 @@
 		65B2CF6020E26D850043BDCE /* BLBackgroundRealm_watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				65B2CF6120E26D850043BDCE /* BLBackgroundRealm.h */,
-				65B2D01520E298860043BDCE /* module.modulemap */,
 				65B2CF6220E26D850043BDCE /* Info.plist */,
 			);
 			path = BLBackgroundRealm_watchOS;
@@ -525,8 +531,6 @@
 		65B2CF9220E26DAE0043BDCE /* BLBackgroundRealm_tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				65B2CF9320E26DAE0043BDCE /* BLBackgroundRealm.h */,
-				65B2D01320E298800043BDCE /* module.modulemap */,
 				65B2CF9420E26DAE0043BDCE /* Info.plist */,
 			);
 			path = BLBackgroundRealm_tvOS;
@@ -557,8 +561,6 @@
 		65B2CFC720E26DDB0043BDCE /* BLBackgroundRealm_macOS */ = {
 			isa = PBXGroup;
 			children = (
-				65B2CFC820E26DDB0043BDCE /* BLBackgroundRealm.h */,
-				65B2D01420E298830043BDCE /* module.modulemap */,
 				65B2CFC920E26DDB0043BDCE /* Info.plist */,
 			);
 			path = BLBackgroundRealm_macOS;
@@ -719,6 +721,23 @@
 			path = tvos;
 			sourceTree = "<group>";
 		};
+		65E6F70620EB5A5300D62CDB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */,
+				65E6F70820EB5A5300D62CDB /* module.modulemap */,
+			);
+			name = Headers;
+			path = ../Headers;
+			sourceTree = "<group>";
+		};
+		65E6F71620EB5BC400D62CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -729,9 +748,9 @@
 				65B2CFE420E27C8D0043BDCE /* RLMRealm+Background.h in Headers */,
 				65B2CFF820E285A70043BDCE /* BLBackgroundRealmClass.h in Headers */,
 				65B2D00720E290F00043BDCE /* BLBackgroundWorker.h in Headers */,
-				65B2CF5220E26D5A0043BDCE /* BLBackgroundRealm.h in Headers */,
 				65B2CFDA20E275CB0043BDCE /* BLBackgroundRealmError.h in Headers */,
 				65B2D00120E287E00043BDCE /* BLBackgroundRealmBlock.h in Headers */,
+				65E6F70920EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */,
 				65B2CFEE20E27D970043BDCE /* RLMRealmConfiguration+Background.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,9 +762,9 @@
 				65B2CFE520E27C8D0043BDCE /* RLMRealm+Background.h in Headers */,
 				65B2CFF920E285A70043BDCE /* BLBackgroundRealmClass.h in Headers */,
 				65B2D00820E290F00043BDCE /* BLBackgroundWorker.h in Headers */,
-				65B2CF6320E26D850043BDCE /* BLBackgroundRealm.h in Headers */,
 				65B2CFDB20E275CB0043BDCE /* BLBackgroundRealmError.h in Headers */,
 				65B2D00220E287E10043BDCE /* BLBackgroundRealmBlock.h in Headers */,
+				65E6F70A20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */,
 				65B2CFEF20E27D970043BDCE /* RLMRealmConfiguration+Background.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -757,9 +776,9 @@
 				65B2CFE620E27C8D0043BDCE /* RLMRealm+Background.h in Headers */,
 				65B2CFFA20E285A70043BDCE /* BLBackgroundRealmClass.h in Headers */,
 				65B2D00920E290F00043BDCE /* BLBackgroundWorker.h in Headers */,
-				65B2CF9520E26DAE0043BDCE /* BLBackgroundRealm.h in Headers */,
 				65B2CFDC20E275CB0043BDCE /* BLBackgroundRealmError.h in Headers */,
 				65B2D00420E287E30043BDCE /* BLBackgroundRealmBlock.h in Headers */,
+				65E6F70B20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */,
 				65B2CFF020E27D970043BDCE /* RLMRealmConfiguration+Background.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -771,9 +790,9 @@
 				65B2CFE720E27C8D0043BDCE /* RLMRealm+Background.h in Headers */,
 				65B2CFFB20E285A70043BDCE /* BLBackgroundRealmClass.h in Headers */,
 				65B2D00A20E290F00043BDCE /* BLBackgroundWorker.h in Headers */,
-				65B2CFCA20E26DDB0043BDCE /* BLBackgroundRealm.h in Headers */,
 				65B2CFDD20E275CB0043BDCE /* BLBackgroundRealmError.h in Headers */,
 				65B2D00320E287E20043BDCE /* BLBackgroundRealmBlock.h in Headers */,
+				65E6F70C20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */,
 				65B2CFF120E27D970043BDCE /* RLMRealmConfiguration+Background.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -811,6 +830,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				65E6F71920EB5BE200D62CDB /* PBXTargetDependency */,
 				65B2CF3320E26CBA0043BDCE /* PBXTargetDependency */,
 			);
 			name = "iOS Tests";
@@ -853,7 +873,7 @@
 			);
 			name = BLBackgroundRealm_watchOS;
 			productName = BLBackgroundRealm_watchOS;
-			productReference = 65B2CF5F20E26D850043BDCE /* BLBackgroundRealm_watchOS.framework */;
+			productReference = 65B2CF5F20E26D850043BDCE /* BLBackgroundRealm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65B2CF6A20E26D970043BDCE /* tvOS Example */ = {
@@ -886,6 +906,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				65E6F71B20EB5BEB00D62CDB /* PBXTargetDependency */,
 				65B2CF8820E26DA20043BDCE /* PBXTargetDependency */,
 			);
 			name = "tvOS Tests";
@@ -909,7 +930,7 @@
 			);
 			name = BLBackgroundRealm_tvOS;
 			productName = BLBackgroundRealm_tvOS;
-			productReference = 65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework */;
+			productReference = 65B2CF9120E26DAE0043BDCE /* BLBackgroundRealm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65B2CFA120E26DC10043BDCE /* macOS Example */ = {
@@ -942,6 +963,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				65E6F71D20EB5BF000D62CDB /* PBXTargetDependency */,
 				65B2CFBD20E26DCE0043BDCE /* PBXTargetDependency */,
 			);
 			name = "macOS Tests";
@@ -965,7 +987,7 @@
 			);
 			name = BLBackgroundRealm_macOS;
 			productName = BLBackgroundRealm_macOS;
-			productReference = 65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework */;
+			productReference = 65B2CFC620E26DDB0043BDCE /* BLBackgroundRealm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1137,14 +1159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6557310620E3652600F17D94 /* BLBackgroundRealmClass.m in Sources */,
-				6557310A20E3653500F17D94 /* BLBackgroundRealmError.m in Sources */,
 				6557310220E3604600F17D94 /* Realm+Background_Tests.m in Sources */,
-				6557310920E3653200F17D94 /* RLMRealmConfiguration+Background.m in Sources */,
 				655730FE20E35B9100F17D94 /* TestObject.m in Sources */,
-				6557310820E3652D00F17D94 /* RLMRealm+Background.m in Sources */,
 				65E888EC20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */,
-				6557310B20E3653800F17D94 /* BLBackgroundWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1186,14 +1203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6557310C20E3655D00F17D94 /* BLBackgroundRealmClass.m in Sources */,
-				6557310F20E3655D00F17D94 /* BLBackgroundRealmError.m in Sources */,
 				6557310320E3604600F17D94 /* Realm+Background_Tests.m in Sources */,
-				6557310E20E3655D00F17D94 /* RLMRealmConfiguration+Background.m in Sources */,
 				655730FF20E35B9100F17D94 /* TestObject.m in Sources */,
-				6557310D20E3655D00F17D94 /* RLMRealm+Background.m in Sources */,
 				65E888ED20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */,
-				6557311020E3655D00F17D94 /* BLBackgroundWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1222,14 +1234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6557311120E3655D00F17D94 /* BLBackgroundRealmClass.m in Sources */,
-				6557311420E3655D00F17D94 /* BLBackgroundRealmError.m in Sources */,
 				6557310420E3604600F17D94 /* Realm+Background_Tests.m in Sources */,
-				6557311320E3655D00F17D94 /* RLMRealmConfiguration+Background.m in Sources */,
 				6557310020E35B9100F17D94 /* TestObject.m in Sources */,
-				6557311220E3655D00F17D94 /* RLMRealm+Background.m in Sources */,
 				65E888EE20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */,
-				6557311520E3655D00F17D94 /* BLBackgroundWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1277,6 +1284,21 @@
 			isa = PBXTargetDependency;
 			target = 65B2CFC520E26DDB0043BDCE /* BLBackgroundRealm_macOS */;
 			targetProxy = 65B2CFCB20E26DDB0043BDCE /* PBXContainerItemProxy */;
+		};
+		65E6F71920EB5BE200D62CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B2CF4D20E26D5A0043BDCE /* BLBackgroundRealm_iOS */;
+			targetProxy = 65E6F71820EB5BE200D62CDB /* PBXContainerItemProxy */;
+		};
+		65E6F71B20EB5BEB00D62CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B2CF9020E26DAE0043BDCE /* BLBackgroundRealm_tvOS */;
+			targetProxy = 65E6F71A20EB5BEB00D62CDB /* PBXContainerItemProxy */;
+		};
+		65E6F71D20EB5BF000D62CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B2CFC520E26DDB0043BDCE /* BLBackgroundRealm_macOS */;
+			targetProxy = 65E6F71C20EB5BF000D62CDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1569,7 +1591,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-iOS";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1603,7 +1625,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-iOS";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1638,9 +1660,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1676,9 +1697,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1824,9 +1844,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1861,9 +1880,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -2015,9 +2033,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -2053,9 +2070,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/../Headers/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
