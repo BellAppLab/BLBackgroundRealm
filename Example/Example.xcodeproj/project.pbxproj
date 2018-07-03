@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001B07986F0D41EB44DD6785 /* libPods-iOS Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D410DB92A7158D7A486E7608 /* libPods-iOS Example.a */; };
-		3CE4F087393ED784AACFA22F /* libPods-BLBackgroundRealm_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 513C0315B5823909D8076567 /* libPods-BLBackgroundRealm_iOS.a */; };
-		3D367BF518D3EBBE83C58AC8 /* libPods-iOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 825D0E832833D9176A9551B2 /* libPods-iOS Tests.a */; };
-		63ADB22A0DB8BFF0D50575C2 /* libPods-macOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8143AE385852F325E9ADD /* libPods-macOS Tests.a */; };
 		655730FE20E35B9100F17D94 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 655730FD20E35B9100F17D94 /* TestObject.m */; };
 		655730FF20E35B9100F17D94 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 655730FD20E35B9100F17D94 /* TestObject.m */; };
 		6557310020E35B9100F17D94 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 655730FD20E35B9100F17D94 /* TestObject.m */; };
@@ -105,15 +101,22 @@
 		65B2D01620E298980043BDCE /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2D01520E298860043BDCE /* module.modulemap */; };
 		65B2D01820E298A50043BDCE /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2D01320E298800043BDCE /* module.modulemap */; };
 		65B2D01A20E298B10043BDCE /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B2D01420E298830043BDCE /* module.modulemap */; };
+		65E6F6F120EB51AA00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D020EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		65E6F6F220EB51B100D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		65E6F6F420EB51B800D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		65E6F6F520EB51BA00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; };
+		65E6F6F620EB51BD00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		65E6F6F820EB529800D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; };
+		65E6F6F920EB529B00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; };
+		65E6F6FA20EB529E00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; };
+		65E6F6FC20EB53D200D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65E6F6FD20EB53EB00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; };
+		65E6F6FE20EB53EB00D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65E6F6FF20EB53F400D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; };
+		65E6F70020EB53F400D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65E888EC20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */; };
 		65E888ED20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */; };
 		65E888EE20E2B1AF001E8F30 /* BackgroundRealm_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */; };
-		7616F8280E91126341B9A61A /* libPods-macOS Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 158BCA533AAE78D606B08809 /* libPods-macOS Example.a */; };
-		7ACC4728C0B9CED13462E579 /* libPods-tvOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 358CD1CA8C81025574DB0FCE /* libPods-tvOS Tests.a */; };
-		AD3C0FE1FFAAC62396479A82 /* libPods-tvOS Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DD4A95B60DECB8BC6AE4CD /* libPods-tvOS Example.a */; };
-		B5E5179FF76CC10F6B925258 /* libPods-BLBackgroundRealm_watchOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000E3A77C0087CBFC27578C5 /* libPods-BLBackgroundRealm_watchOS.a */; };
-		C8771E6AA1DE1D1109597DF9 /* libPods-BLBackgroundRealm_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE12B2EA02C130E4B925D20 /* libPods-BLBackgroundRealm_tvOS.a */; };
-		E2BD3F735738935D8FEEC222 /* libPods-BLBackgroundRealm_macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E66E9DDE986E936E8CDC72DE /* libPods-BLBackgroundRealm_macOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +171,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				65E6F6FC20EB53D200D62CDB /* Realm.framework in Embed Frameworks */,
 				65B2CF5620E26D5A0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -179,6 +183,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				65E6F6FE20EB53EB00D62CDB /* Realm.framework in Embed Frameworks */,
 				65B2CF9920E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -190,6 +195,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				65E6F70020EB53F400D62CDB /* Realm.framework in Embed Frameworks */,
 				65B2CFCE20E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -238,20 +244,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		000E3A77C0087CBFC27578C5 /* libPods-BLBackgroundRealm_watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLBackgroundRealm_watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0382F5E8DA4CA93E8D81BDC7 /* Pods-tvOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS Tests/Pods-tvOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		158BCA533AAE78D606B08809 /* libPods-macOS Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macOS Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26767D5A57727DFE8851188B /* Pods-BLBackgroundRealm_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_macOS/Pods-BLBackgroundRealm_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2A9E37FB4E5EEE6D80399821 /* Pods-BLBackgroundRealm_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_tvOS/Pods-BLBackgroundRealm_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2AE12B2EA02C130E4B925D20 /* libPods-BLBackgroundRealm_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLBackgroundRealm_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FA01B0D16CCF8AB763B6FD7 /* Pods-macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-macOS Example/Pods-macOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		2FF8BED1CC53E5F07466BBB2 /* Pods-BLBackgroundRealm_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_iOS/Pods-BLBackgroundRealm_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		358CD1CA8C81025574DB0FCE /* libPods-tvOS Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tvOS Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB144DD5AE451255CF55F2 /* Pods-iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Example/Pods-iOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		4AA4080E9C7204E86CDFFB3F /* Pods-BLBackgroundRealm_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_watchOS/Pods-BLBackgroundRealm_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		513C0315B5823909D8076567 /* libPods-BLBackgroundRealm_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLBackgroundRealm_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59A662576A804A29FD0B5B73 /* Pods-BLBackgroundRealm_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_watchOS/Pods-BLBackgroundRealm_watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		60DD4A95B60DECB8BC6AE4CD /* libPods-tvOS Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tvOS Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		655730FC20E35B9100F17D94 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		655730FD20E35B9100F17D94 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		6557310120E3604600F17D94 /* Realm+Background_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Realm+Background_Tests.m"; sourceTree = "<group>"; };
@@ -318,23 +310,21 @@
 		65B2D01320E298800043BDCE /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		65B2D01420E298830043BDCE /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		65B2D01520E298860043BDCE /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		65BBD72D53F2C38CE58C94F3 /* Pods-iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Tests/Pods-iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		65E6F6BA20EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6BC20EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6BD20EB4F3D00D62CDB /* docs.webloc */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = docs.webloc; sourceTree = "<group>"; };
+		65E6F6C020EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6C220EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6C420EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6C520EB4F3D00D62CDB /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		65E6F6D020EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6D220EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6D320EB518300D62CDB /* docs.webloc */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = docs.webloc; sourceTree = "<group>"; };
+		65E6F6D620EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6D820EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6DA20EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		65E6F6DB20EB518300D62CDB /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundRealm_Tests.m; sourceTree = "<group>"; };
-		6C9B2670BE5EF7757B8AB65C /* Pods-iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Example/Pods-iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		825D0E832833D9176A9551B2 /* libPods-iOS Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86F9C8058721377668D8454C /* Pods-tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS Example/Pods-tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9CC4B3A84D187D23B4AFEB16 /* Pods-macOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-macOS Tests/Pods-macOS Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A222B5475658051611B6A793 /* Pods-BLBackgroundRealm_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_tvOS/Pods-BLBackgroundRealm_tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		AB2E10D64A1B60E4E1D32D0F /* Pods-macOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macOS Tests/Pods-macOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BDF8143AE385852F325E9ADD /* libPods-macOS Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macOS Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F684AA8C8F3A8E22842CDD /* Pods-BLBackgroundRealm_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_iOS/Pods-BLBackgroundRealm_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		CD50BB6E480F6DD4D2E210B9 /* Pods-tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS Example/Pods-tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0BB33D03107F2CAE258A0A5 /* Pods-BLBackgroundRealm_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLBackgroundRealm_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLBackgroundRealm_macOS/Pods-BLBackgroundRealm_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		D410DB92A7158D7A486E7608 /* libPods-iOS Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAD0F4457717E5C45B23A90A /* Pods-macOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macOS Example/Pods-macOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E65800EDE3CAE4F31CE71C6E /* Pods-tvOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS Tests/Pods-tvOS Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E66E9DDE986E936E8CDC72DE /* libPods-BLBackgroundRealm_macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLBackgroundRealm_macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED10AA33476300F6FE649B20 /* Pods-iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Tests/Pods-iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,8 +332,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E6F6F520EB51BA00D62CDB /* Realm.framework in Frameworks */,
 				65B2CF5520E26D5A0043BDCE /* BLBackgroundRealm.framework in Frameworks */,
-				001B07986F0D41EB44DD6785 /* libPods-iOS Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +341,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D367BF518D3EBBE83C58AC8 /* libPods-iOS Tests.a in Frameworks */,
+				65E6F6F920EB529B00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +349,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE4F087393ED784AACFA22F /* libPods-BLBackgroundRealm_iOS.a in Frameworks */,
+				65E6F6F420EB51B800D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +357,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E5179FF76CC10F6B925258 /* libPods-BLBackgroundRealm_watchOS.a in Frameworks */,
+				65E6F6F120EB51AA00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +365,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E6F6FD20EB53EB00D62CDB /* Realm.framework in Frameworks */,
 				65B2CF9820E26DAE0043BDCE /* BLBackgroundRealm_tvOS.framework in Frameworks */,
-				AD3C0FE1FFAAC62396479A82 /* libPods-tvOS Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +374,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACC4728C0B9CED13462E579 /* libPods-tvOS Tests.a in Frameworks */,
+				65E6F6F820EB529800D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +382,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8771E6AA1DE1D1109597DF9 /* libPods-BLBackgroundRealm_tvOS.a in Frameworks */,
+				65E6F6F620EB51BD00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,8 +390,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E6F6FF20EB53F400D62CDB /* Realm.framework in Frameworks */,
 				65B2CFCD20E26DDB0043BDCE /* BLBackgroundRealm_macOS.framework in Frameworks */,
-				7616F8280E91126341B9A61A /* libPods-macOS Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +399,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63ADB22A0DB8BFF0D50575C2 /* libPods-macOS Tests.a in Frameworks */,
+				65E6F6FA20EB529E00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +407,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2BD3F735738935D8FEEC222 /* libPods-BLBackgroundRealm_macOS.a in Frameworks */,
+				65E6F6F220EB51B100D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +421,8 @@
 				65B2CFD520E26F420043BDCE /* BLBackgroundRealm.podspec */,
 				65B2CFD420E26F420043BDCE /* LICENSE */,
 				65B2CFD620E274F20043BDCE /* BLBackgroundRealm */,
+				65E6F6CE20EB518300D62CDB /* realm-objc-3.7.4 */,
+				65E6F6B820EB4F3D00D62CDB /* realm-objc-3.0.0 */,
 				65B2CF1420E26CA10043BDCE /* iOS Example */,
 				65B2CF2E20E26CBA0043BDCE /* iOS Tests */,
 				65B2CF4F20E26D5A0043BDCE /* BLBackgroundRealm_iOS */,
@@ -443,8 +435,6 @@
 				65B2CFC720E26DDB0043BDCE /* BLBackgroundRealm_macOS */,
 				65B2CFD720E2750A0043BDCE /* Tests */,
 				65B2CEF720E26B600043BDCE /* Products */,
-				F895FB54BED6D85477BA53F1 /* Pods */,
-				7867478B4006395A3FFCCE9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -605,48 +595,128 @@
 			path = ../Tests;
 			sourceTree = "<group>";
 		};
-		7867478B4006395A3FFCCE9E /* Frameworks */ = {
+		65E6F6B820EB4F3D00D62CDB /* realm-objc-3.0.0 */ = {
 			isa = PBXGroup;
 			children = (
-				513C0315B5823909D8076567 /* libPods-BLBackgroundRealm_iOS.a */,
-				E66E9DDE986E936E8CDC72DE /* libPods-BLBackgroundRealm_macOS.a */,
-				2AE12B2EA02C130E4B925D20 /* libPods-BLBackgroundRealm_tvOS.a */,
-				000E3A77C0087CBFC27578C5 /* libPods-BLBackgroundRealm_watchOS.a */,
-				D410DB92A7158D7A486E7608 /* libPods-iOS Example.a */,
-				158BCA533AAE78D606B08809 /* libPods-macOS Example.a */,
-				BDF8143AE385852F325E9ADD /* libPods-macOS Tests.a */,
-				60DD4A95B60DECB8BC6AE4CD /* libPods-tvOS Example.a */,
-				358CD1CA8C81025574DB0FCE /* libPods-tvOS Tests.a */,
-				825D0E832833D9176A9551B2 /* libPods-iOS Tests.a */,
+				65E6F6B920EB4F3D00D62CDB /* watchos */,
+				65E6F6BB20EB4F3D00D62CDB /* osx */,
+				65E6F6BD20EB4F3D00D62CDB /* docs.webloc */,
+				65E6F6BE20EB4F3D00D62CDB /* ios */,
+				65E6F6C320EB4F3D00D62CDB /* tvos */,
+				65E6F6C520EB4F3D00D62CDB /* LICENSE.txt */,
 			);
-			name = Frameworks;
+			path = "realm-objc-3.0.0";
 			sourceTree = "<group>";
 		};
-		F895FB54BED6D85477BA53F1 /* Pods */ = {
+		65E6F6B920EB4F3D00D62CDB /* watchos */ = {
 			isa = PBXGroup;
 			children = (
-				2FF8BED1CC53E5F07466BBB2 /* Pods-BLBackgroundRealm_iOS.debug.xcconfig */,
-				C1F684AA8C8F3A8E22842CDD /* Pods-BLBackgroundRealm_iOS.release.xcconfig */,
-				26767D5A57727DFE8851188B /* Pods-BLBackgroundRealm_macOS.debug.xcconfig */,
-				D0BB33D03107F2CAE258A0A5 /* Pods-BLBackgroundRealm_macOS.release.xcconfig */,
-				2A9E37FB4E5EEE6D80399821 /* Pods-BLBackgroundRealm_tvOS.debug.xcconfig */,
-				A222B5475658051611B6A793 /* Pods-BLBackgroundRealm_tvOS.release.xcconfig */,
-				4AA4080E9C7204E86CDFFB3F /* Pods-BLBackgroundRealm_watchOS.debug.xcconfig */,
-				59A662576A804A29FD0B5B73 /* Pods-BLBackgroundRealm_watchOS.release.xcconfig */,
-				6C9B2670BE5EF7757B8AB65C /* Pods-iOS Example.debug.xcconfig */,
-				46EB144DD5AE451255CF55F2 /* Pods-iOS Example.release.xcconfig */,
-				ED10AA33476300F6FE649B20 /* Pods-iOS Tests.debug.xcconfig */,
-				65BBD72D53F2C38CE58C94F3 /* Pods-iOS Tests.release.xcconfig */,
-				DAD0F4457717E5C45B23A90A /* Pods-macOS Example.debug.xcconfig */,
-				2FA01B0D16CCF8AB763B6FD7 /* Pods-macOS Example.release.xcconfig */,
-				AB2E10D64A1B60E4E1D32D0F /* Pods-macOS Tests.debug.xcconfig */,
-				9CC4B3A84D187D23B4AFEB16 /* Pods-macOS Tests.release.xcconfig */,
-				86F9C8058721377668D8454C /* Pods-tvOS Example.debug.xcconfig */,
-				CD50BB6E480F6DD4D2E210B9 /* Pods-tvOS Example.release.xcconfig */,
-				0382F5E8DA4CA93E8D81BDC7 /* Pods-tvOS Tests.debug.xcconfig */,
-				E65800EDE3CAE4F31CE71C6E /* Pods-tvOS Tests.release.xcconfig */,
+				65E6F6BA20EB4F3D00D62CDB /* Realm.framework */,
 			);
-			name = Pods;
+			path = watchos;
+			sourceTree = "<group>";
+		};
+		65E6F6BB20EB4F3D00D62CDB /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6BC20EB4F3D00D62CDB /* Realm.framework */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		65E6F6BE20EB4F3D00D62CDB /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6BF20EB4F3D00D62CDB /* dynamic */,
+				65E6F6C120EB4F3D00D62CDB /* static */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		65E6F6BF20EB4F3D00D62CDB /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6C020EB4F3D00D62CDB /* Realm.framework */,
+			);
+			path = dynamic;
+			sourceTree = "<group>";
+		};
+		65E6F6C120EB4F3D00D62CDB /* static */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6C220EB4F3D00D62CDB /* Realm.framework */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		65E6F6C320EB4F3D00D62CDB /* tvos */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6C420EB4F3D00D62CDB /* Realm.framework */,
+			);
+			path = tvos;
+			sourceTree = "<group>";
+		};
+		65E6F6CE20EB518300D62CDB /* realm-objc-3.7.4 */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6CF20EB518300D62CDB /* watchos */,
+				65E6F6D120EB518300D62CDB /* osx */,
+				65E6F6D320EB518300D62CDB /* docs.webloc */,
+				65E6F6D420EB518300D62CDB /* ios */,
+				65E6F6D920EB518300D62CDB /* tvos */,
+				65E6F6DB20EB518300D62CDB /* LICENSE.txt */,
+			);
+			path = "realm-objc-3.7.4";
+			sourceTree = "<group>";
+		};
+		65E6F6CF20EB518300D62CDB /* watchos */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6D020EB518300D62CDB /* Realm.framework */,
+			);
+			path = watchos;
+			sourceTree = "<group>";
+		};
+		65E6F6D120EB518300D62CDB /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6D220EB518300D62CDB /* Realm.framework */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		65E6F6D420EB518300D62CDB /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6D520EB518300D62CDB /* dynamic */,
+				65E6F6D720EB518300D62CDB /* static */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		65E6F6D520EB518300D62CDB /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6D620EB518300D62CDB /* Realm.framework */,
+			);
+			path = dynamic;
+			sourceTree = "<group>";
+		};
+		65E6F6D720EB518300D62CDB /* static */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6D820EB518300D62CDB /* Realm.framework */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		65E6F6D920EB518300D62CDB /* tvos */ = {
+			isa = PBXGroup;
+			children = (
+				65E6F6DA20EB518300D62CDB /* Realm.framework */,
+			);
+			path = tvos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -715,7 +785,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CF2820E26CA20043BDCE /* Build configuration list for PBXNativeTarget "iOS Example" */;
 			buildPhases = (
-				2811AF040E06020A639C395B /* [CP] Check Pods Manifest.lock */,
 				65B2CF0F20E26CA10043BDCE /* Sources */,
 				65B2CF1020E26CA10043BDCE /* Frameworks */,
 				65B2CF1120E26CA10043BDCE /* Resources */,
@@ -735,7 +804,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CF3420E26CBA0043BDCE /* Build configuration list for PBXNativeTarget "iOS Tests" */;
 			buildPhases = (
-				891D546EA988E9D720904632 /* [CP] Check Pods Manifest.lock */,
 				65B2CF2920E26CBA0043BDCE /* Sources */,
 				65B2CF2A20E26CBA0043BDCE /* Frameworks */,
 				65B2CF2B20E26CBA0043BDCE /* Resources */,
@@ -754,7 +822,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CF5720E26D5A0043BDCE /* Build configuration list for PBXNativeTarget "BLBackgroundRealm_iOS" */;
 			buildPhases = (
-				7C47A559D4B555D4DC88D63A /* [CP] Check Pods Manifest.lock */,
 				65B2CF4920E26D5A0043BDCE /* Sources */,
 				65B2CF4A20E26D5A0043BDCE /* Frameworks */,
 				65B2CF4B20E26D5A0043BDCE /* Headers */,
@@ -774,7 +841,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CF6420E26D850043BDCE /* Build configuration list for PBXNativeTarget "BLBackgroundRealm_watchOS" */;
 			buildPhases = (
-				A065AE23A838C82DD8D27A24 /* [CP] Check Pods Manifest.lock */,
 				65B2CF5A20E26D850043BDCE /* Sources */,
 				65B2CF5B20E26D850043BDCE /* Frameworks */,
 				65B2CF5C20E26D850043BDCE /* Headers */,
@@ -794,7 +860,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CF7B20E26D990043BDCE /* Build configuration list for PBXNativeTarget "tvOS Example" */;
 			buildPhases = (
-				53A9C2EFA25C73E5A5B5C75D /* [CP] Check Pods Manifest.lock */,
 				65B2CF6720E26D970043BDCE /* Sources */,
 				65B2CF6820E26D970043BDCE /* Frameworks */,
 				65B2CF6920E26D970043BDCE /* Resources */,
@@ -814,7 +879,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CF8920E26DA20043BDCE /* Build configuration list for PBXNativeTarget "tvOS Tests" */;
 			buildPhases = (
-				80D772D2AE20536A6F2FAA73 /* [CP] Check Pods Manifest.lock */,
 				65B2CF7E20E26DA20043BDCE /* Sources */,
 				65B2CF7F20E26DA20043BDCE /* Frameworks */,
 				65B2CF8020E26DA20043BDCE /* Resources */,
@@ -833,7 +897,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CF9A20E26DAE0043BDCE /* Build configuration list for PBXNativeTarget "BLBackgroundRealm_tvOS" */;
 			buildPhases = (
-				4E68750B4CAFCADAC76886EC /* [CP] Check Pods Manifest.lock */,
 				65B2CF8C20E26DAE0043BDCE /* Sources */,
 				65B2CF8D20E26DAE0043BDCE /* Frameworks */,
 				65B2CF8E20E26DAE0043BDCE /* Headers */,
@@ -853,7 +916,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CFB020E26DC10043BDCE /* Build configuration list for PBXNativeTarget "macOS Example" */;
 			buildPhases = (
-				2F5C2150A2E61E61AE7F21BC /* [CP] Check Pods Manifest.lock */,
 				65B2CF9E20E26DC10043BDCE /* Sources */,
 				65B2CF9F20E26DC10043BDCE /* Frameworks */,
 				65B2CFA020E26DC10043BDCE /* Resources */,
@@ -873,7 +935,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CFBE20E26DCE0043BDCE /* Build configuration list for PBXNativeTarget "macOS Tests" */;
 			buildPhases = (
-				77BEFCE5A1FD1BD2874C6159 /* [CP] Check Pods Manifest.lock */,
 				65B2CFB320E26DCE0043BDCE /* Sources */,
 				65B2CFB420E26DCE0043BDCE /* Frameworks */,
 				65B2CFB520E26DCE0043BDCE /* Resources */,
@@ -892,7 +953,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B2CFCF20E26DDB0043BDCE /* Build configuration list for PBXNativeTarget "BLBackgroundRealm_macOS" */;
 			buildPhases = (
-				4BC3DB322BE2DB7ABBD8FC7E /* [CP] Check Pods Manifest.lock */,
 				65B2CFC120E26DDB0043BDCE /* Sources */,
 				65B2CFC220E26DDB0043BDCE /* Frameworks */,
 				65B2CFC320E26DDB0043BDCE /* Headers */,
@@ -1061,189 +1121,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2811AF040E06020A639C395B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F5C2150A2E61E61AE7F21BC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-macOS Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4BC3DB322BE2DB7ABBD8FC7E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BLBackgroundRealm_macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4E68750B4CAFCADAC76886EC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BLBackgroundRealm_tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		53A9C2EFA25C73E5A5B5C75D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tvOS Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77BEFCE5A1FD1BD2874C6159 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-macOS Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C47A559D4B555D4DC88D63A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BLBackgroundRealm_iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80D772D2AE20536A6F2FAA73 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tvOS Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		891D546EA988E9D720904632 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A065AE23A838C82DD8D27A24 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BLBackgroundRealm_watchOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65B2CF0F20E26CA10043BDCE /* Sources */ = {
@@ -1497,7 +1374,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = BLBackgroundRealm;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSION = 1.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -1553,21 +1432,29 @@
 				PRODUCT_NAME = BLBackgroundRealm;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
 				VERSION = 1.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
 		65B2CF2620E26CA20043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C9B2670BE5EF7757B8AB65C /* Pods-iOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "iOS Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1581,14 +1468,20 @@
 		};
 		65B2CF2720E26CA20043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB144DD5AE451255CF55F2 /* Pods-iOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "iOS Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1602,11 +1495,14 @@
 		};
 		65B2CF3520E26CBA0043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED10AA33476300F6FE649B20 /* Pods-iOS Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+				);
 				INFOPLIST_FILE = "iOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1625,11 +1521,14 @@
 		};
 		65B2CF3620E26CBA0043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65BBD72D53F2C38CE58C94F3 /* Pods-iOS Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+				);
 				INFOPLIST_FILE = "iOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1647,7 +1546,6 @@
 		};
 		65B2CF5820E26D5A0043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FF8BED1CC53E5F07466BBB2 /* Pods-BLBackgroundRealm_iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1656,9 +1554,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+				);
 				INFOPLIST_FILE = BLBackgroundRealm_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1675,7 +1580,6 @@
 		};
 		65B2CF5920E26D5A0043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1F684AA8C8F3A8E22842CDD /* Pods-BLBackgroundRealm_iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1684,9 +1588,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+				);
 				INFOPLIST_FILE = BLBackgroundRealm_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1703,7 +1614,6 @@
 		};
 		65B2CF6520E26D850043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA4080E9C7204E86CDFFB3F /* Pods-BLBackgroundRealm_watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1713,6 +1623,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/watchos",
+				);
 				INFOPLIST_FILE = BLBackgroundRealm_watchOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1729,13 +1647,11 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
 		65B2CF6620E26D850043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59A662576A804A29FD0B5B73 /* Pods-BLBackgroundRealm_watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1745,6 +1661,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/watchos",
+				);
 				INFOPLIST_FILE = BLBackgroundRealm_watchOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1761,18 +1685,24 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
 		65B2CF7C20E26D990043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86F9C8058721377668D8454C /* Pods-tvOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "tvOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1784,18 +1714,24 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
 		65B2CF7D20E26D990043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD50BB6E480F6DD4D2E210B9 /* Pods-tvOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "tvOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1807,17 +1743,19 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
 		65B2CF8A20E26DA20043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0382F5E8DA4CA93E8D81BDC7 /* Pods-tvOS Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+				);
 				INFOPLIST_FILE = "tvOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1832,17 +1770,19 @@
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOS Example.app/tvOS Example";
-				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Debug;
 		};
 		65B2CF8B20E26DA20043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E65800EDE3CAE4F31CE71C6E /* Pods-tvOS Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+				);
 				INFOPLIST_FILE = "tvOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1856,13 +1796,11 @@
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOS Example.app/tvOS Example";
-				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Release;
 		};
 		65B2CF9B20E26DAE0043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9E37FB4E5EEE6D80399821 /* Pods-BLBackgroundRealm_tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1871,6 +1809,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+				);
 				INFOPLIST_FILE = BLBackgroundRealm_tvOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1885,7 +1831,6 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1893,7 +1838,6 @@
 		};
 		65B2CF9C20E26DAE0043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A222B5475658051611B6A793 /* Pods-BLBackgroundRealm_tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1902,6 +1846,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+				);
 				INFOPLIST_FILE = BLBackgroundRealm_tvOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1916,7 +1868,6 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1924,7 +1875,6 @@
 		};
 		65B2CFB120E26DC10043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAD0F4457717E5C45B23A90A /* Pods-macOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "macOS Example/macOS_Example.entitlements";
@@ -1932,13 +1882,20 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "macOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1948,7 +1905,6 @@
 		};
 		65B2CFB220E26DC10043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA01B0D16CCF8AB763B6FD7 /* Pods-macOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "macOS Example/macOS_Example.entitlements";
@@ -1956,13 +1912,20 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "macOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1972,20 +1935,22 @@
 		};
 		65B2CFBF20E26DCE0043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB2E10D64A1B60E4E1D32D0F /* Pods-macOS Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+				);
 				INFOPLIST_FILE = "macOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1998,20 +1963,22 @@
 		};
 		65B2CFC020E26DCE0043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CC4B3A84D187D23B4AFEB16 /* Pods-macOS Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+				);
 				INFOPLIST_FILE = "macOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2023,7 +1990,6 @@
 		};
 		65B2CFD020E26DDB0043BDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26767D5A57727DFE8851188B /* Pods-BLBackgroundRealm_macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
@@ -2033,6 +1999,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = BLBackgroundRealm_macOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2041,7 +2015,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -2055,7 +2028,6 @@
 		};
 		65B2CFD120E26DDB0043BDCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0BB33D03107F2CAE258A0A5 /* Pods-BLBackgroundRealm_macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
@@ -2065,6 +2037,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = BLBackgroundRealm_macOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2073,7 +2053,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "$(SRCROOT)/$(TARGET_NAME)/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellapplab.BLBackgroundRealm-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
