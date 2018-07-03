@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65B2CF9020E26DAE0043BDCE"
-               BuildableName = "BLBackgroundRealm_tvOS.framework"
+               BuildableName = "BLBackgroundRealm.framework"
                BlueprintName = "BLBackgroundRealm_tvOS"
                ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65B2CF9020E26DAE0043BDCE"
-            BuildableName = "BLBackgroundRealm_tvOS.framework"
+            BuildableName = "BLBackgroundRealm.framework"
             BlueprintName = "BLBackgroundRealm_tvOS"
             ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65B2CF9020E26DAE0043BDCE"
-            BuildableName = "BLBackgroundRealm_tvOS.framework"
+            BuildableName = "BLBackgroundRealm.framework"
             BlueprintName = "BLBackgroundRealm_tvOS"
             ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>

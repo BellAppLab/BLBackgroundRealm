@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "BLBackgroundRealm"
-  s.version             = "1.0.2"
+  s.version             = "1.0.3"
   s.summary             = "A collection of handy classes and extensions that make it easier to work with `Realm` in the background."
   s.screenshot          = "https://github.com/BellAppLab/BLBackgroundRealm/raw/master/Images/background_realm.png"
 
@@ -28,10 +28,11 @@ For the Swift counterpart, see [BackgroundRealm](https://github.com/BellAppLab/B
   s.watchos.deployment_target = "3.0"
 
   s.module_name         = 'BLBackgroundRealm'
+  s.header_dir          = 'Headers'
 
   s.source              = { :git => "https://github.com/BellAppLab/BLBackgroundRealm.git", :tag => "#{s.version}" }
 
-  s.source_files        = "BLBackgroundRealm"
+  s.source_files        = "BLBackgroundRealm", "Headers"
 
   s.framework           = "Foundation"
   s.dependency          'Realm', '~> 3.0'
