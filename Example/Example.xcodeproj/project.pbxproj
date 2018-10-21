@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6530DA58217C9EFE0055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D95D217C9EAF0055BA3D /* Realm.framework */; };
+		6530DA59217C9EFF0055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D95D217C9EAF0055BA3D /* Realm.framework */; };
+		6530DA5D217C9F160055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97B217C9EAF0055BA3D /* Realm.framework */; };
+		6530DA5E217C9F160055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97B217C9EAF0055BA3D /* Realm.framework */; };
+		6530DA60217C9F2D0055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97F217C9EAF0055BA3D /* Realm.framework */; };
+		6530DA61217C9F2D0055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97F217C9EAF0055BA3D /* Realm.framework */; };
+		6530DA65217CA1910055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D95D217C9EAF0055BA3D /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6530DA67217CA19F0055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97F217C9EAF0055BA3D /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6530DA68217CA1A80055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97B217C9EAF0055BA3D /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6530DA69217CA36E0055BA3D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97B217C9EAF0055BA3D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6530DA6A217CA3C50055BA3D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D97F217C9EAF0055BA3D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6530DA6C217CA4270055BA3D /* BLBackgroundRealm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; };
+		6530DA6D217CA42D0055BA3D /* BLBackgroundRealm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; };
+		6530DA6E217CA4330055BA3D /* BLBackgroundRealm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; };
+		6530DA6F217CA48F0055BA3D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D95B217C9EAF0055BA3D /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		655730FE20E35B9100F17D94 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 655730FD20E35B9100F17D94 /* TestObject.m */; };
 		655730FF20E35B9100F17D94 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 655730FD20E35B9100F17D94 /* TestObject.m */; };
 		6557310020E35B9100F17D94 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 655730FD20E35B9100F17D94 /* TestObject.m */; };
@@ -78,19 +93,6 @@
 		65B2D00C20E290F00043BDCE /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
 		65B2D00D20E290F00043BDCE /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
 		65B2D00E20E290F00043BDCE /* BLBackgroundWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2D00620E290F00043BDCE /* BLBackgroundWorker.m */; };
-		65E6F6F120EB51AA00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D020EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		65E6F6F220EB51B100D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		65E6F6F420EB51B800D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		65E6F6F520EB51BA00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; };
-		65E6F6F620EB51BD00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		65E6F6F820EB529800D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; };
-		65E6F6F920EB529B00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; };
-		65E6F6FA20EB529E00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; };
-		65E6F6FC20EB53D200D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D620EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65E6F6FD20EB53EB00D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; };
-		65E6F6FE20EB53EB00D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6DA20EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65E6F6FF20EB53F400D62CDB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; };
-		65E6F70020EB53F400D62CDB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6F6D220EB518300D62CDB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65E6F70920EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65E6F70A20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65E6F70B20EB5A5300D62CDB /* BLBackgroundRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,7 +183,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65E6F6FC20EB53D200D62CDB /* Realm.framework in Embed Frameworks */,
+				6530DA69217CA36E0055BA3D /* Realm.framework in Embed Frameworks */,
 				65B2CF5620E26D5A0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -193,7 +195,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65E6F6FE20EB53EB00D62CDB /* Realm.framework in Embed Frameworks */,
+				6530DA6A217CA3C50055BA3D /* Realm.framework in Embed Frameworks */,
 				65B2CF9920E26DAE0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -205,7 +207,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65E6F70020EB53F400D62CDB /* Realm.framework in Embed Frameworks */,
 				65B2CFCE20E26DDB0043BDCE /* BLBackgroundRealm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -228,6 +229,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				6530DA6E217CA4330055BA3D /* BLBackgroundRealm.h in CopyFiles */,
 				65E6F71220EB5A8000D62CDB /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +240,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				6530DA6D217CA42D0055BA3D /* BLBackgroundRealm.h in CopyFiles */,
 				65E6F70F20EB5A7100D62CDB /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +251,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				6530DA6C217CA4270055BA3D /* BLBackgroundRealm.h in CopyFiles */,
 				65E6F70D20EB5A6700D62CDB /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +259,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6530D95B217C9EAF0055BA3D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		6530D95D217C9EAF0055BA3D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		6530D95E217C9EAF0055BA3D /* docs.webloc */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = docs.webloc; sourceTree = "<group>"; };
+		6530D97B217C9EAF0055BA3D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		6530D97D217C9EAF0055BA3D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		6530D97F217C9EAF0055BA3D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		6530DA29217C9EAF0055BA3D /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		655730FC20E35B9100F17D94 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		655730FD20E35B9100F17D94 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		6557310120E3604600F17D94 /* Realm+Background_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Realm+Background_Tests.m"; sourceTree = "<group>"; };
@@ -320,13 +331,6 @@
 		65E6F6C220EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		65E6F6C420EB4F3D00D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		65E6F6C520EB4F3D00D62CDB /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		65E6F6D020EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		65E6F6D220EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		65E6F6D320EB518300D62CDB /* docs.webloc */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = docs.webloc; sourceTree = "<group>"; };
-		65E6F6D620EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		65E6F6D820EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		65E6F6DA20EB518300D62CDB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		65E6F6DB20EB518300D62CDB /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		65E6F70720EB5A5300D62CDB /* BLBackgroundRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBackgroundRealm.h; sourceTree = "<group>"; };
 		65E6F70820EB5A5300D62CDB /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		65E888EB20E2B1AF001E8F30 /* BackgroundRealm_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundRealm_Tests.m; sourceTree = "<group>"; };
@@ -337,7 +341,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E6F6F520EB51BA00D62CDB /* Realm.framework in Frameworks */,
+				6530DA5D217C9F160055BA3D /* Realm.framework in Frameworks */,
 				65B2CF5520E26D5A0043BDCE /* BLBackgroundRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,8 +350,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6530DA5E217C9F160055BA3D /* Realm.framework in Frameworks */,
 				65E6F71E20EB5C6400D62CDB /* BLBackgroundRealm.framework in Frameworks */,
-				65E6F6F920EB529B00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +359,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E6F6F420EB51B800D62CDB /* Realm.framework in Frameworks */,
+				6530DA68217CA1A80055BA3D /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +367,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E6F6F120EB51AA00D62CDB /* Realm.framework in Frameworks */,
+				6530DA6F217CA48F0055BA3D /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +375,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E6F6FD20EB53EB00D62CDB /* Realm.framework in Frameworks */,
+				6530DA60217C9F2D0055BA3D /* Realm.framework in Frameworks */,
 				65B2CF9820E26DAE0043BDCE /* BLBackgroundRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,8 +384,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6530DA61217C9F2D0055BA3D /* Realm.framework in Frameworks */,
 				65E6F71F20EB5C6D00D62CDB /* BLBackgroundRealm.framework in Frameworks */,
-				65E6F6F820EB529800D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +393,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E6F6F620EB51BD00D62CDB /* Realm.framework in Frameworks */,
+				6530DA67217CA19F0055BA3D /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +401,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E6F6FF20EB53F400D62CDB /* Realm.framework in Frameworks */,
+				6530DA58217C9EFE0055BA3D /* Realm.framework in Frameworks */,
 				65B2CFCD20E26DDB0043BDCE /* BLBackgroundRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,8 +410,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6530DA59217C9EFF0055BA3D /* Realm.framework in Frameworks */,
 				65E6F72020EB5C7500D62CDB /* BLBackgroundRealm.framework in Frameworks */,
-				65E6F6FA20EB529E00D62CDB /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,13 +419,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E6F6F220EB51B100D62CDB /* Realm.framework in Frameworks */,
+				6530DA65217CA1910055BA3D /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6530D959217C9EAF0055BA3D /* realm-objc-3.11.1 */ = {
+			isa = PBXGroup;
+			children = (
+				6530D95A217C9EAF0055BA3D /* watchos */,
+				6530D95C217C9EAF0055BA3D /* osx */,
+				6530D95E217C9EAF0055BA3D /* docs.webloc */,
+				6530D979217C9EAF0055BA3D /* ios */,
+				6530D97E217C9EAF0055BA3D /* tvos */,
+				6530DA29217C9EAF0055BA3D /* LICENSE.txt */,
+			);
+			path = "realm-objc-3.11.1";
+			sourceTree = "<group>";
+		};
+		6530D95A217C9EAF0055BA3D /* watchos */ = {
+			isa = PBXGroup;
+			children = (
+				6530D95B217C9EAF0055BA3D /* Realm.framework */,
+			);
+			path = watchos;
+			sourceTree = "<group>";
+		};
+		6530D95C217C9EAF0055BA3D /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				6530D95D217C9EAF0055BA3D /* Realm.framework */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		6530D979217C9EAF0055BA3D /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				6530D97A217C9EAF0055BA3D /* dynamic */,
+				6530D97C217C9EAF0055BA3D /* static */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		6530D97A217C9EAF0055BA3D /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				6530D97B217C9EAF0055BA3D /* Realm.framework */,
+			);
+			path = dynamic;
+			sourceTree = "<group>";
+		};
+		6530D97C217C9EAF0055BA3D /* static */ = {
+			isa = PBXGroup;
+			children = (
+				6530D97D217C9EAF0055BA3D /* Realm.framework */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		6530D97E217C9EAF0055BA3D /* tvos */ = {
+			isa = PBXGroup;
+			children = (
+				6530D97F217C9EAF0055BA3D /* Realm.framework */,
+			);
+			path = tvos;
+			sourceTree = "<group>";
+		};
 		65B2CEED20E26B600043BDCE = {
 			isa = PBXGroup;
 			children = (
@@ -430,7 +496,7 @@
 				65B2CFD420E26F420043BDCE /* LICENSE */,
 				65B2CFD620E274F20043BDCE /* BLBackgroundRealm */,
 				65E6F70620EB5A5300D62CDB /* Headers */,
-				65E6F6CE20EB518300D62CDB /* realm-objc-3.7.4 */,
+				6530D959217C9EAF0055BA3D /* realm-objc-3.11.1 */,
 				65E6F6B820EB4F3D00D62CDB /* realm-objc-3.0.0 */,
 				65B2CF1420E26CA10043BDCE /* iOS Example */,
 				65B2CF2E20E26CBA0043BDCE /* iOS Tests */,
@@ -655,68 +721,6 @@
 			isa = PBXGroup;
 			children = (
 				65E6F6C420EB4F3D00D62CDB /* Realm.framework */,
-			);
-			path = tvos;
-			sourceTree = "<group>";
-		};
-		65E6F6CE20EB518300D62CDB /* realm-objc-3.7.4 */ = {
-			isa = PBXGroup;
-			children = (
-				65E6F6CF20EB518300D62CDB /* watchos */,
-				65E6F6D120EB518300D62CDB /* osx */,
-				65E6F6D320EB518300D62CDB /* docs.webloc */,
-				65E6F6D420EB518300D62CDB /* ios */,
-				65E6F6D920EB518300D62CDB /* tvos */,
-				65E6F6DB20EB518300D62CDB /* LICENSE.txt */,
-			);
-			path = "realm-objc-3.7.4";
-			sourceTree = "<group>";
-		};
-		65E6F6CF20EB518300D62CDB /* watchos */ = {
-			isa = PBXGroup;
-			children = (
-				65E6F6D020EB518300D62CDB /* Realm.framework */,
-			);
-			path = watchos;
-			sourceTree = "<group>";
-		};
-		65E6F6D120EB518300D62CDB /* osx */ = {
-			isa = PBXGroup;
-			children = (
-				65E6F6D220EB518300D62CDB /* Realm.framework */,
-			);
-			path = osx;
-			sourceTree = "<group>";
-		};
-		65E6F6D420EB518300D62CDB /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				65E6F6D520EB518300D62CDB /* dynamic */,
-				65E6F6D720EB518300D62CDB /* static */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		65E6F6D520EB518300D62CDB /* dynamic */ = {
-			isa = PBXGroup;
-			children = (
-				65E6F6D620EB518300D62CDB /* Realm.framework */,
-			);
-			path = dynamic;
-			sourceTree = "<group>";
-		};
-		65E6F6D720EB518300D62CDB /* static */ = {
-			isa = PBXGroup;
-			children = (
-				65E6F6D820EB518300D62CDB /* Realm.framework */,
-			);
-			path = static;
-			sourceTree = "<group>";
-		};
-		65E6F6D920EB518300D62CDB /* tvos */ = {
-			isa = PBXGroup;
-			children = (
-				65E6F6DA20EB518300D62CDB /* Realm.framework */,
 			);
 			path = tvos;
 			sourceTree = "<group>";
@@ -1376,6 +1380,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1397,7 +1411,7 @@
 				PRODUCT_NAME = BLBackgroundRealm;
 				SDKROOT = iphoneos;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
-				VERSION = 1.0;
+				VERSION = 1.0.4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
@@ -1440,6 +1454,16 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1456,7 +1480,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
-				VERSION = 1.0;
+				VERSION = 1.0.4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
@@ -1468,12 +1492,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "iOS Example/Info.plist";
@@ -1495,12 +1517,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "iOS Example/Info.plist";
@@ -1522,8 +1542,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				INFOPLIST_FILE = "iOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1548,8 +1570,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				INFOPLIST_FILE = "iOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1577,12 +1601,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				INFOPLIST_FILE = BLBackgroundRealm_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1611,12 +1633,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/ios/dynamic",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/ios/dynamic",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				INFOPLIST_FILE = BLBackgroundRealm_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1646,12 +1666,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				INFOPLIST_FILE = BLBackgroundRealm_watchOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1683,12 +1699,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/watchos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/watchos",
 				);
 				INFOPLIST_FILE = BLBackgroundRealm_watchOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1716,12 +1728,8 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "tvOS Example/Info.plist";
@@ -1745,12 +1753,8 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "tvOS Example/Info.plist";
@@ -1773,8 +1777,8 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
 				);
 				INFOPLIST_FILE = "tvOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1800,8 +1804,8 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
 				);
 				INFOPLIST_FILE = "tvOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1830,12 +1834,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
 				);
 				INFOPLIST_FILE = BLBackgroundRealm_tvOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1866,12 +1866,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/tvos",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/tvos",
 				);
 				INFOPLIST_FILE = BLBackgroundRealm_tvOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1901,12 +1897,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "macOS Example/Info.plist";
@@ -1931,12 +1923,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "macOS Example/Info.plist";
@@ -1960,8 +1948,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
 				);
 				INFOPLIST_FILE = "macOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1988,8 +1976,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
 				);
 				INFOPLIST_FILE = "macOS Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2018,12 +2006,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = BLBackgroundRealm_macOS/Info.plist;
@@ -2055,12 +2039,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/realm-objc-3.0.0/osx",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/watchos",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/ios/dynamic",
-					"$(PROJECT_DIR)/realm-objc-3.0.0/tvos",
-					"$(PROJECT_DIR)/realm-objc-3.7.4/osx",
+					"$(PROJECT_DIR)/realm-objc-3.11.1/osx",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = BLBackgroundRealm_macOS/Info.plist;
