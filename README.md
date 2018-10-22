@@ -140,6 +140,10 @@ When forking this repo, make sure to download the Realm framework and add it man
 
 Bell App Lab, apps@bellapplab.com
 
+### Contributing
+
+Check [this out](./CONTRIBUTING.md).
+
 ### Credits
 
 [Logo image](https://thenounproject.com/search/?q=background&i=635453#) by [mikicon](https://thenounproject.com/mikicon) from [The Noun Project](https://thenounproject.com/)
