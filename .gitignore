@@ -1,7 +1,7 @@
 # Realm
 
 realm*/
-Realm/
+/Realm
 
 # Created by https://www.gitignore.io/api/xcode,macos,carthage,cocoapods,objective-c
 
