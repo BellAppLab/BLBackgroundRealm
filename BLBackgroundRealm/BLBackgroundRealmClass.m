@@ -120,6 +120,7 @@ NS_ASSUME_NONNULL_BEGIN
     
     RLMRealmConfiguration *config = [RLMRealmConfiguration backgroundConfiguration];
     if (!config) config = [RLMRealmConfiguration defaultConfiguration];
+    config = [config copy];
     config.fileURL = url;
     
     if (self = [super init]) {
