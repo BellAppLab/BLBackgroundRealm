@@ -1559,7 +1559,7 @@
 				REALM_VERSION = 3.11.1;
 				SDKROOT = iphoneos;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
-				VERSION = 1.0.4;
+				VERSION = 1.0.5;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
@@ -1623,7 +1623,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
-				VERSION = 1.0.4;
+				VERSION = 1.0.5;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
