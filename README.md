@@ -1,4 +1,4 @@
-# BLBackgroundRealm [![Version](https://img.shields.io/badge/Version-1.0.4-black.svg?style=flat)](#installation) [![License](https://img.shields.io/cocoapods/l/BLBackgroundRealm.svg?style=flat)](#license)
+# BLBackgroundRealm [![Version](https://img.shields.io/badge/Version-1.0.5-black.svg?style=flat)](#installation) [![License](https://img.shields.io/cocoapods/l/BLBackgroundRealm.svg?style=flat)](#license)
 
 [![Platforms](https://img.shields.io/badge/Platforms-iOS|tvOS|macOS|watchOS-brightgreen.svg?style=flat)](#installation)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/BLBackgroundRealm.svg?style=flat&label=CocoaPods)](https://cocoapods.org/pods/BLBackgroundRealm)
@@ -139,6 +139,10 @@ When forking this repo, make sure to download the Realm framework and add it man
 ## Author
 
 Bell App Lab, apps@bellapplab.com
+
+### Contributing
+
+Check [this out](./CONTRIBUTING.md).
 
 ### Credits
 
