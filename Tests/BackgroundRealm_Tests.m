@@ -19,28 +19,17 @@
 
 @implementation BackgroundRealm_Tests
 
-- (void)setUp {
-    [super setUp];
-    
-    [RLMRealmConfiguration setBackgroundConfiguration:nil];
-    
-    _defaultBackgroundRealm = nil;
-    _backgroundBackgroundRealm = nil;
-    _customBackgroundRealm = nil;
-    _fileBackgroundRealm = nil;
-    _updateBackgroundRealm = nil;
-    _backgroundWriteToken = nil;
-}
-
 - (void)testInitialisingBackgroundRealmWithTheDefaultConfiguration {
     XCTestExpectation *expectRealm = [self expectationWithDescription:@"We should be able to create a BackgroundRealm from Realm.Configuration.default"];
-    
+
+    __weak typeof(self) weakSelf = self;
     _defaultBackgroundRealm = [BLBackgroundRealm backgroundRealmWithBlock:^(RLMRealm * _Nullable realm, BLBackgroundRealmError * _Nullable error) {
         XCTAssertNil(error, "We should be able to get a background Realm with no errors, but got one: %@", error);
         XCTAssertNotNil(realm, "We should be able to get a background Realm with no errors");
         
         XCTAssertNotEqual([NSThread currentThread], [NSThread mainThread], "We should be in the background");
-        
+
+        [weakSelf setDefaultBackgroundRealm:nil];
         [expectRealm fulfill];
     }];
     
@@ -58,7 +47,8 @@
     RLMRealmConfiguration *config = [[RLMRealmConfiguration alloc] init];
     config.fileURL = url;
     [RLMRealmConfiguration setBackgroundConfiguration:config];
-    
+
+    __weak typeof(self) weakSelf = self;
     _backgroundBackgroundRealm = [BLBackgroundRealm backgroundRealmWithBlock:^(RLMRealm * _Nullable realm, BLBackgroundRealmError * _Nullable error) {
         XCTAssertNil(error, "We should be able to get a background Realm with no errors, but got one: %@", error);
         XCTAssertNotNil(realm, "We should be able to get a background Realm with no errors");
@@ -67,9 +57,10 @@
         
         XCTAssertNotNil(realm.configuration.fileURL,
                         "The background realm's configuration shouldn't be empty");
-        XCTAssertTrue([realm.configuration.fileURL.absoluteString isEqualToString:[RLMRealmConfiguration backgroundConfiguration].fileURL.absoluteString],
+        XCTAssertTrue([realm.configuration.fileURL.absoluteString isEqualToString:config.fileURL.absoluteString],
                       "The background realm's URL should be equal to the one set on Realm.Configuration.backgroundConfiguration");
-        
+
+        [weakSelf setBackgroundBackgroundRealm:nil];
         [expectRealm fulfill];
     }];
     
@@ -86,9 +77,10 @@
     
     RLMRealmConfiguration *config = [[RLMRealmConfiguration alloc] init];
     config.fileURL = url;
-    
+
     [RLMRealmConfiguration setBackgroundConfiguration:[RLMRealmConfiguration defaultConfiguration]];
-    
+
+    __weak typeof(self) weakSelf = self;
     _customBackgroundRealm = [BLBackgroundRealm backgroundRealmWithConfiguration:config
                                                                         andBlock:^(RLMRealm * _Nullable realm,
                                                                                    BLBackgroundRealmError * _Nullable error)
@@ -101,7 +93,8 @@
         XCTAssertNotNil(realm.configuration.fileURL, "The background realm's configuration shouldn't be empty");
         XCTAssertTrue([realm.configuration.fileURL.absoluteString isEqualToString:config.fileURL.absoluteString], "The background realm's URL should be equal to the one set on Realm.Configuration.backgroundConfiguration");
         XCTAssertFalse([realm.configuration.fileURL.absoluteString isEqualToString:[RLMRealmConfiguration backgroundConfiguration].fileURL.absoluteString], "The background realm's URL should be equal to the one set upon initialisation");
-        
+
+        [weakSelf setCustomBackgroundRealm:nil];
         [expectRealm fulfill];
     }];
     
@@ -115,7 +108,10 @@
     NSURL *url = [[[RLMRealmConfiguration defaultConfiguration].fileURL URLByDeletingLastPathComponent] URLByAppendingPathComponent:@"testInitialisingBackgroundRealmWithFileURL.realm"];
     XCTAssertNotNil(url, "The test realm URL shouldn't be nil");
     NSLog(@"URL: %@", url);
-    
+
+    [RLMRealmConfiguration setBackgroundConfiguration:[RLMRealmConfiguration defaultConfiguration]];
+
+    __weak typeof(self) weakSelf = self;
     _fileBackgroundRealm = [BLBackgroundRealm backgroundRealmWithFileURL:url
                                                                 andBlock:^(RLMRealm * _Nullable realm, BLBackgroundRealmError * _Nullable error)
     {
@@ -126,8 +122,9 @@
         
         XCTAssertNotNil(realm.configuration.fileURL, "The background realm's configuration shouldn't be empty");
         XCTAssertTrue([realm.configuration.fileURL.absoluteString isEqualToString:url.absoluteString], "The background realm's URL should be equal to the one set on Realm.Configuration.backgroundConfiguration");
-        XCTAssertFalse([realm.configuration.fileURL.absoluteString isEqualToString:[RLMRealmConfiguration backgroundConfiguration].fileURL.absoluteString], "The background realm's URL should be equal to the one set upon initialisation");
-        
+        XCTAssertFalse([realm.configuration.fileURL.absoluteString isEqualToString:[RLMRealmConfiguration backgroundConfiguration].fileURL.absoluteString], "The background realm's URL shouldn't be equal to the one set upon initialisation");
+
+        [weakSelf setFileBackgroundRealm:nil];
         [expectRealm fulfill];
     }];
     
@@ -164,6 +161,8 @@
         {
             if (error) {
                 XCTFail("%@", error);
+                [weakSelf setBackgroundWriteToken:nil];
+                [weakSelf setUpdateBackgroundRealm:nil];
                 [expectWrite fulfill];
                 return;
             }
@@ -179,7 +178,9 @@
             XCTAssertNotNil(object, "We should have inserted a TestObject");
             XCTAssertTrue([object.name isEqualToString:name], "We should have inserted a TestObject with the name %@", name);
             XCTAssertNotEqual([NSThread currentThread], [NSThread mainThread], "We should be in the background");
-            
+
+            [weakSelf setBackgroundWriteToken:nil];
+            [weakSelf setUpdateBackgroundRealm:nil];
             [expectWrite fulfill];
         }]];
         
